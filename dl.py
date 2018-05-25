@@ -33,9 +33,9 @@ def getImage(image_link):
     path=l[0]
     filename=l[1]
     if path[len(path)-1]!='/':
-        TOTAL_PATH = path + '/' + filename + '.jpg'
+        TOTAL_PATH = path + '/' + filename + '.png'
     else:
-        TOTAL_PATH = path + filename + '.jpg'
+        TOTAL_PATH = path + filename + '.png'
     urllib.urlretrieve(image_link,TOTAL_PATH)
     
 def main():

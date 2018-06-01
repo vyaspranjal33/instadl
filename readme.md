@@ -1,5 +1,1 @@
-instagram images downloader in Python 2
-
-Requirements
-
-python 2
+# instagram images downloader in ![python](https://img.shields.io/badge/Python-2.x-blue.svg)
